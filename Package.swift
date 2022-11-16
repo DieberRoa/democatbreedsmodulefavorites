@@ -23,7 +23,7 @@ let package = Package(
         .target(
             name: "BreedFavorites",
             dependencies: []),
-        .binaryTarget(name: "BreedFavorites",
+        .binaryTarget(name: "BreedFavoritesFramework",
                       url: "https://github.com/DieberRoa/democatbreedsmodulefavorites/breedfavorites.zip",
                       checksum: "4fce2abf4061430c3a4b497a4898edfcdebc4d6a4ab88b05e24a29b33f40def5"),
         .testTarget(
