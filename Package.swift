@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "BreedFavorites",
-            targets: ["BreedFavorites"]),
+            targets: ["BreedFavorites","BreedFavoritesFramework"]),
        
     ],
     dependencies: [
@@ -25,7 +25,7 @@ let package = Package(
             dependencies: []),
         .binaryTarget(name: "BreedFavoritesFramework",
                       url: "https://github.com/DieberRoa/democatbreedsmodulefavorites/breedfavorites.zip",
-                      checksum: "4fce2abf4061430c3a4b497a4898edfcdebc4d6a4ab88b05e24a29b33f40def5"),
+                      checksum: "2f68c5bbb8c234f4b0a9f6d88126b82f76fad89bcd22e6f2fbd21056721f182d"),
         .testTarget(
             name: "BreedFavoritesTests",
             dependencies: ["BreedFavorites"]),
