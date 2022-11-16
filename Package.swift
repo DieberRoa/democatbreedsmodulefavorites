@@ -11,7 +11,6 @@ let package = Package(
         .library(
             name: "BreedFavorites",
             targets: ["BreedFavorites","BreedFavoritesFramework"]),
-       
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -25,7 +24,7 @@ let package = Package(
             dependencies: []),
         .binaryTarget(name: "BreedFavoritesFramework",
                       url: "https://github.com/DieberRoa/democatbreedsmodulefavorites/blob/main/breedfavorites.zip",
-                      checksum: "7523233ce3a77ae5b179761c0b8355a59032c04ec6745f30eee1c16db2f6eb04"),
+                      checksum: "956a98d5fe5e835bcb97d2102c5384247699b1584038a9e3013ad80cf22ca38e"),
         .testTarget(
             name: "BreedFavoritesTests",
             dependencies: ["BreedFavorites"]),
