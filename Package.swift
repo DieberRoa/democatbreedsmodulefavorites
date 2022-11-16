@@ -24,7 +24,7 @@ let package = Package(
             name: "BreedFavorites",
             dependencies: []),
         .binaryTarget(name: "BreedFavoritesFramework",
-                      url: "https://github.com/DieberRoa/democatbreedsmodulefavorites/breedfavorites.zip",
+                      url: "https://github.com/DieberRoa/democatbreedsmodulefavorites/blob/main/breedfavorites.zip",
                       checksum: "2f68c5bbb8c234f4b0a9f6d88126b82f76fad89bcd22e6f2fbd21056721f182d"),
         .testTarget(
             name: "BreedFavoritesTests",
